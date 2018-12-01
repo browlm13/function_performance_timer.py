@@ -2,6 +2,18 @@
 
 """
 	Timer - function performance evaulation
+
+[TODO]:
+
+	Deprecated of time.time() since version 3.3: 
+
+		Behaviour platform specific.
+
+		use:
+			- perf_counter()
+			- process_time() 
+
+		for well defined behaviour.
 """
 
 __filename__ = "function_performance_timer.py"
