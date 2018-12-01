@@ -11,8 +11,8 @@ Timer - function performance evaulation
 		Behaviour platform specific.
 
 		usage:
-			- perf_counter()
-			- process_time() 
+			time.process_time() # process-wide timing
+			time.perf_counter() # system-wide timing
 
 		for well defined behaviour.
 
