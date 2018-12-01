@@ -1,19 +1,28 @@
 #!/usr/bin/env
 
 """
-	Timer - function performance evaulation
 
-[TODO]:
+Timer - function performance evaulation
+
+[Notes]:
 
 	Deprecated of time.time() since version 3.3: 
 
 		Behaviour platform specific.
 
-		use:
+		usage:
 			- perf_counter()
 			- process_time() 
 
 		for well defined behaviour.
+
+	More detailed specs can be found using profile in standard lib:
+
+		usage: 
+
+			import profile
+
+			profile.run('func()')
 """
 
 __filename__ = "function_performance_timer.py"
